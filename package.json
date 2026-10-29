@@ -31,6 +31,11 @@
     "nodemon": "^2.0.4",
     "prettier": "^2.0.4"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "husky"
+    ]
+  },
   "lint-staged": {
     "*.js": [
       "npm run prettify",
