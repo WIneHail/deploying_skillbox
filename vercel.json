@@ -4,11 +4,5 @@
     "index.js": {
       "includeFiles": "views/**"
     }
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "index.js"
-    }
-  ]
+  }
 }
