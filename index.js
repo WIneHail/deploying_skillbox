@@ -204,6 +204,5 @@ app.listen(port, () => {
 });
 
 module.exports = {
-  hash,
   app,
 };
